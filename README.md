@@ -5,20 +5,5 @@ With this JavaScript function, we can implement press and hold feature in Web UI
 
 > Compatible with Mobile and Desktop Devices
 
-[Live Demo](https://jxmked.github.io/Javascript-Press-and-Hold-Feature/)
+[Live Demo](https://github.com/mllrycy/feature/)
 ----
-
-****Enjoy****
-#### Written by Jovan De Guia
-
-## Socials
-
-- [Github](https://github.com/jxmked)
-- [Facebook](https://www.facebook.com/deguia25)
-
-## Support via
-
-- [Buy me some Coffee](https://www.buymeacoffee.com/jxmked)
-- GCash - +639673271649
-
-### License under MIT license
