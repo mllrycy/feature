@@ -1,0 +1,183 @@
+body {
+    width: 320px;
+    max-width: 320px;
+    height: auto;
+    font-size: 10px;
+    display: block;
+    white-space: nowrap;
+    font-family: "Helvetica", "Arial", "Sans-Serif";
+    background-color: #f0f0f0;
+    color: rgb(58, 58, 60);
+}
+.header {
+    width: 70%;
+    background-color: rgb(229, 229, 234);
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -3%);
+    border: 1px solid rgb(99, 99, 102);
+    border-radius: 7px;
+    text-align: center;
+}
+.header > h3 {
+    display: inline-block;
+    margin: 10px 10px 10 10px;
+}
+button {
+    background-color: #a1a1a1;
+}
+
+/** Remove arrows inside of an number input **/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+/** Remove arrows inside of an number input **/
+
+.container {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.center-center {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.container > .panel {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.container > .panel:not(:last-child) {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #3f3f3f;
+}
+.item > .btn {
+    /** Remove  Whitespaces between elements **/
+    white-space: nowrap;
+    font-size: 0;
+}
+.item input,
+.item button {
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    color: rgb(54, 54, 56) !important;
+    background-color: #f0f0f0;
+}
+.item > .btn > input {
+    width: 40px;
+}
+.btn > input {
+    border: none;
+    border-top: 1px solid rgb(72, 72, 74);
+    border-bottom: 1px solid rgb(72, 72, 74);
+}
+.btn > button:first-child,
+.modal > #hold_button,
+.modal #hold_modal_close {
+    border-radius: 7px 0 0 7px;
+    border: 1px solid rgb(72, 72, 74);
+}
+.btn > button:last-child {
+    border-radius: 0 7px 7px 0;
+    border: 1px solid rgb(72, 72, 74);
+}
+.btn > button:hover,
+.modal > #hold_button:hover,
+.modal #hold_modal_close:hover {
+    background-color: rgb(229, 229, 214);
+}
+.btn > button:active,
+.modal > #hold_button:active,
+.modal #hold_modal_close:active {
+    background-color: rgb(174, 174, 178);
+    border: 1px solid rgb(99, 99, 102);
+}
+#hold_modal {
+    height: 20rem;
+    width: 20rem;
+    background-color: rgba(174, 174, 178, 0.5);
+    overflow: break;
+    backdrop-filter: blur(8px);
+}
+#hold_modal > div {
+    font-size: 1.4rem;
+}
+#hold_modal > div > span {
+    white-space: initial;
+    height: auto;
+    width: 15rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+#hold_modal_close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+.modal > #hold_button,
+.modal #hold_modal_close {
+    border-radius: 7px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    border-top: 1px solid #000;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    font-size: 1.2rem;
+}
+footer > div {
+    padding: 0;
+    margin: 1px;
+}
+footer > div > h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 0;
+    margin: 10px 0 5px 15px;
+}
+footer > div,
+footer > div > label {
+    display: block;
+}
+
+@media (min-width: 450px) {
+    footer > div,
+    footer > div > label {
+        display: inline-block;
+    }
+}
+
+footer label[for="copyright"] {
+    position: absolute;
+    right: 25px;
+}
+footer label[for="developer"] {
+    margin: 0 0 0 20px;
+}
+footer label[for="socials"],
+footer label[for="socials"] > span {
+    display: block;
+    margin: 0 0 0 20px;
+}
+footer a {
+    color: inherit;
+}
