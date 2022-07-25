@@ -66,9 +66,3 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 
 });
-
-/**
- * Written By Jovan De Guia
- * Project Name: Press and Hold For Web Buttons
- * Github: jxmked
- * */
